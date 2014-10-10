@@ -1,0 +1,53 @@
+#backgroundWrapper {
+	background-color: black;
+	width: 1280px;
+	height: 620px;
+}
+
+#header {
+	width: 100%;
+	height: 40px;
+	background-color: #892020;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.window {
+	height: 400px;
+	width: 300px;
+	background-color: white;
+	border: 2px solid red;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+#firstWindow {
+	margin-left: 140px;
+}
+
+#clear {
+	clear: both;
+}
+
+.locationButton {
+	height: 30px;
+	width: 180px;
+	background-color: #892020;
+	float: left;
+	margin-left: 20px;
+	border-radius: 5px;
+	margin-top: 40px;
+	text-align: center;
+	font-weight: bold;
+	color:white;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#coliseum {
+	margin-left: 150px;
+}
