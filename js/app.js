@@ -30,6 +30,8 @@ $(document).ready(function(){
 	});
 	//When a location button is clicked, empty images and get new photos
 	$(".locationButton").click(function(){
+		$(".locationButton").css("color","white");
+		$(this).css("color","black");
 		emptyImages();
 		getPhotos();
 	});
