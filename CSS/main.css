@@ -13,23 +13,24 @@
 	color:white;
 	padding-top: 10px;
 	font-weight: bold;
+	font-family: Verdana;
 }
 
 .window {
-	height: 400px;
-	width: 300px;
+	height: 306px;
+	width: 306px;
 	background-color: white;
 	border: 2px solid red;
 	float: left;
-	margin-top: 40px;
-	margin-left: 50px;
+	margin-top: 70px;
+	margin-left: 60px;
 }
 
 #firstWindow {
-	margin-left: 140px;
+	margin-left: 121px;
 }
 
-#clear {
+.clear {
 	clear: both;
 }
 
@@ -40,14 +41,24 @@
 	float: left;
 	margin-left: 20px;
 	border-radius: 5px;
-	margin-top: 40px;
+	margin-top: 60px;
 	text-align: center;
 	font-weight: bold;
 	color:white;
 	font-size: 20px;
 	padding-top: 10px;
+	font-family: verdana;
 }
 
-#coliseum {
+#colosseumButton {
 	margin-left: 150px;
+}
+
+#footerText {
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 300px;
+	font-family: verdana;
+	width: 680px;
 }
