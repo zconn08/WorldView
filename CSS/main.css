@@ -63,3 +63,8 @@
 	font-family: verdana;
 	width: 680px;
 }
+
+.window > img {
+	width: 306px;
+	height: 306px;
+}
