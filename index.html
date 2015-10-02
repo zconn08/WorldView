@@ -9,19 +9,36 @@
 	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
-	<div id="backgroundWrapper">
 		<div id="header">WorldView</div>
-		<div id ="firstWindow" class="window"><img id="img0"></div>
-		<div class="window"><img id="img1"></div>
-		<div class="window"><img id="img2"></div>
-		<div class="clear"></div>
-		<div id="colosseumButton" class="locationButton">Colosseum</div>
-		<div id="eiffelButton" class="locationButton">Eiffel Tower</div>
-		<div id="greatWallButton" class="locationButton">Great Wall</div>
-		<div id="goldenGateButton" class="locationButton">Golden Gate</div>
-		<div id="peterhofButton" class="locationButton">Peterhof</div>
-		<div class="clear"></div>
+		<div class="wrapper group">
+			<div id ="firstWindow" class="window">
+				<a href="#" id="link0"><img id="img0"></a>
+				<div class="tags" id="tags0">
+					Yup hello this is a test to see if it wraps
+				</div>
+			</div>
+			<div class="window">
+				<a href="#" id="link1"><img id="img1"></a>
+				<div class="tags" id="tags1">
+					Yup hello this is a test to see if it wraps
+				</div>
+			</div>
+			<div class="window">
+				<a href="#" id="link2"><img id="img2"></a>
+				<div class="tags" id="tags2">
+					Yup hello this is a test to see if it wraps
+				</div>
+			</div>
+		</div>
+		<div class="wrapper button group">
+			<div class="button-wrapper">
+				<div id="colosseumButton" class="locationButton">Colosseum</div>
+				<div id="eiffelButton" class="locationButton">Eiffel Tower</div>
+				<div id="greatWallButton" class="locationButton">Great Wall</div>
+				<div id="goldenGateButton" class="locationButton">Golden Gate</div>
+				<div id="peterhofButton" class="locationButton">Peterhof</div>
+			</div>
+		</div>
 		<div id="footerText">See the latest Instagram photos in these five fascinating locations</div>
-	</div>
 </body>
 </html>

@@ -1,70 +1,81 @@
-#backgroundWrapper {
-	background-color: black;
-	width: 1280px;
-	height: 620px;
-}
-
 #header {
 	width: 100%;
 	height: 40px;
-	background-color: #892020;
+	background-color: #FEFCE8;
 	text-align: center;
 	font-size: 30px;
-	color:white;
+	color:#3D2117;
 	padding-top: 10px;
 	font-weight: bold;
-	font-family: Verdana;
 }
 
 .window {
-	height: 306px;
-	width: 306px;
-	background-color: white;
-	border: 2px solid red;
+	width: 30%;
+	background-color: #67C5C2;
 	float: left;
-	margin-top: 70px;
-	margin-left: 60px;
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 1%;
 }
 
-#firstWindow {
-	margin-left: 121px;
+.window img {
+	width: 100%;
+	height: 100%;
+	vertical-align:top;
+	border: 5px solid #3D2117;
 }
 
-.clear {
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.group:after {
 	clear: both;
 }
 
 .locationButton {
 	height: 30px;
-	width: 180px;
-	background-color: #892020;
+	width: 18%;
+	background-color: #C84127;
 	float: left;
-	margin-left: 20px;
+	margin-left: 2%;
 	border-radius: 5px;
-	margin-top: 60px;
 	text-align: center;
 	font-weight: bold;
-	color:white;
+	color: #FEFCE8;
 	font-size: 20px;
 	padding-top: 10px;
-	font-family: verdana;
+
 }
 
 #colosseumButton {
-	margin-left: 150px;
-	color: black;
+	color: #3D2117;
 }
 
 #footerText {
-	color: white;
+	color: #3D2117;
 	font-size: 20px;
-	margin-top: 20px;
-	margin-left: 300px;
-	font-family: verdana;
-	width: 680px;
+	width: 100%;
+	height: 24px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FEFCE8;
 }
 
-.window > img {
-	width: 306px;
-	height: 306px;
+body {
+	background-color: #67C5C2;
+	font-family: verdana;
+}
+
+.tags {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	bottom: -2px;
+	text-align: center;
+	font-weight: bold;
+	color: #3D2117;
 }
